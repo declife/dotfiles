@@ -21,7 +21,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files '("~/project/document/alpine.org"))
  '(package-selected-packages
    '(2048-game company consult doom-modeline flycheck gptel gt magit
                marginalia modus-themes orderless projectile slime
@@ -140,10 +139,6 @@
   :config
   ;; org-tempo
   (require 'org-tempo)
-
-  ;; agenda
-  (setq org-agenda-files '("~/project/document/org")
-        org-agenda-include-diary t)
 
   ;; src block templates
   (add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp"))
